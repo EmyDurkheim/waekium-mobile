@@ -48,7 +48,7 @@ export default function Rota() {
       <View style={styles.card}>
         <Text style={styles.cardTitle}>{rota.titulo}</Text>
 
-        <Image source={require("../assets/mapa.png")} style={styles.map} />
+        <Image source={require("../../assets/images/mapa.png")} style={styles.map} />
 
         <View style={styles.cardContent}>
           <Text style={styles.info}>Carga: {rota.carga}</Text>

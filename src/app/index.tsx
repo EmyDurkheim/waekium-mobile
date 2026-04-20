@@ -12,7 +12,7 @@ export default function Index() {
     const [cpf, setCpf] = useState("");
     const [senha, setSenha] = useState("");
 
-    const API_URL = "http://10.50.49.41:5000"; // ou seu IP local (url da api do back end)
+    const API_URL = "http://192.168.0.49:5000"; // ou seu IP local (url da api do back end)
 
     //funcao que é chamada ao clicar em entrar
     const fazerLogin = async () => {
